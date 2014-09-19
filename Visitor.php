@@ -51,6 +51,5 @@ $visitedArray->addElement('Element 3');
 
 $dataVisitor = new DataVisitor();
 $visitedArray->accept($dataVisitor);
-$dataVisitor->visit($visitedArray);
 
 printf("Info from visitor object: %s\n", $dataVisitor->getInfo());
